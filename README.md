@@ -1,10 +1,10 @@
 # Neovim-Erix
 My Personal Nvim installation
 
-Package Manager: Mason
+Package Manager: Mason <br>
 Plugin Manager: Lazy-Nvim
-
-
+<br>
+<br>
 #Known Issues:
  - miniicon does not display icons properly in Fedora-42-wayland gnome shell, better to use kitty-kitten shell.
  - TreeView is not toggling ON by default, I tried to set option via vim.cmd in lazy.lua but no luck, try using ALT+t to activate or deactivate it
