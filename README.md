@@ -2,7 +2,7 @@
 My Personal Nvim installation
 
 Package Manager: Mason <br>
-Plugin Manager: Lazy-Nvim
+Plugin Manager: Lazy-Nvim <br>
 we use fzflua not ~~Telescope~~
 <br>
 we use blink-cmp 
