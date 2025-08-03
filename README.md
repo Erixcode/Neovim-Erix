@@ -7,7 +7,8 @@ we use fzflua not ~~Telescope~~
 <br>
 we use blink-cmp 
 <br>
-Default Wayland Gnome Shell :
+<br>
+Gnome Terminal :
 <img width="1920" height="1048" alt="GNOME" src="https://github.com/user-attachments/assets/a0ec222c-ac77-49c0-8c07-3baa7b217e04" />
 <br>
 Kitty Terminal
