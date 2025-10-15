@@ -39,5 +39,31 @@ require("lazy").setup({
 require('mini.icons').setup()
 require("config.keymaps")
 
+require("neovim-cursor").setup({
+  -- Keybinding for toggling cursor agent
+  keybinding = "<leader>ai",
+
+  -- Terminal split configuration
+  split = {
+    position = "right",  -- "right", "left", "top", "bottom"
+    size = 0.4,          -- 50% of editor width/height (0.0-1.0)
+  },
+
+  -- CLI command to run
+  command = "cursor agent",
+
+  -- Terminal callbacks (optional)
+  term_opts = {
+    on_open = function()
+      -- Called when terminal opens
+      print("Cursor agent started")
+    end,
+    on_close = function(exit_code)
+      -- Called when terminal closes
+      print("Cursor agent exited with code: " .. exit_code)
+    end,
+  },
+})
+
 --For Videos Recording
 vim.cmd("ShowkeysToggle");
